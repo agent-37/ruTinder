@@ -1,0 +1,9 @@
+Anna;     26;    F;         M;           Rybinsk;     28;     32;        1;sky diving,knitting,reading
+Sergey;   29;    M;         F;           Rybinsk;     24;     29;        2;sky diving,soccer,knitting
+Veronika; 31;    F;         M;           Yaroslavl;   35;     45;        3;soccer,paddle boarding,kayaking
+Olga;     29;    F;         M;           Yaroslavl;   29;     40;        2;soccer,paddle boarding,hiking
+Victor;   34;    M;         F;           Yaroslavl;   24;     29;        2;paddle boarding,kayaking,skiing
+Maria;    23;    F;         M;           Yaroslavl;   25;     30;        3;soccer,skiing,reading,kayaking
+Igor;     29;    M;         F;           Yaroslavl;   21;     25;        1;soccer,kayaking,skiing,reading
+Oleg;     41;    M;         F;           Yaroslavl;   21;     40;        1;soccer,skiing,reading
+Andrew;   43;    M;         F;           Yaroslavl;   21;     35;        1;soccer,kayaking,paddle boarding,reading
