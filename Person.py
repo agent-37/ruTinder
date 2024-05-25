@@ -24,16 +24,17 @@ def is_int(element: any) -> bool:
 
 
 class person:
-    id = None
-    name = None
-    gender = None
-    city = None
-    age = None
-    list_of_interests = None
-    min_age = None
-    max_age = None
-    acc_gender = None
-    min_int = None
+    def __init__(self):
+        id = -1
+        name = ''
+        gender = 'F'
+        city = ''
+        age = 18
+        list_of_interests = []
+        min_age = 18
+        max_age = 18
+        acc_gender = 'M'
+        min_int = 0
 
     def delete_all_info(self) -> None:
         # Удаляет всю информации из фильтра, просто упрощение, чтобы не удалять все вручную
@@ -44,8 +45,24 @@ class person:
         self.list_of_interests = None
         self.min_age = None
         self.max_age = None
-        self.Acc_gender = None
-        self.Min_int = None
+        self.acc_gender = None
+        self.min_int = None
+
+    def print_user_person_info(self):
+        print('------------------------------')
+        print('NAME:', self.name)
+        print('Gander:', self.gender)
+        print('Age:', self.age)
+        print('City:', self.city)
+        print('Min_age', self.min_age)
+        print('Max_age', self.max_age)
+        print('acc_gender', self.acc_gender)
+        print('min_int', self.min_int)
+        if len(self.list_of_interests) != 0:
+            print('Interests:')
+            for i in self.list_of_interests:
+                print(i)
+        print('------------------------------')
 
     def print_person_info(self):
         # Функция выводит информацию о фильтре
@@ -186,8 +203,11 @@ class person:
                     case 10:
                         break
 
-    def fill_person_from_file(self, f_person):
+    def fill_person_from_file(self, f_person, id):
         buf = f_person.readline()[: -1].split(';')
+        if len(buf) <= 8:
+            return 0
+        self.id = id
         self.name = buf[0].split()[0]
         self.age = int(buf[1].split()[0])
         self.gender = buf[2].split()[0]
@@ -197,6 +217,7 @@ class person:
         self.max_age = int(buf[6].split()[0])
         self.min_int = int(buf[7].split()[0])
         self.list_of_interests = set(buf[8].split(','))
+        return 1
 
     def check_cool(self, new_person):
         if not (
@@ -210,9 +231,16 @@ class person:
             return 1
         return 0
 
+    def copy(self):
+        buf = person()
+        buf.name = self.name
+        buf.gender = self.gender
+        buf.city = self.city
+        buf.age = self.age
+        buf.list_of_interests = self.list_of_interests
+        buf.min_age = self.min_age
+        buf.max_age = self.max_age
+        buf.acc_gender = self.acc_gender
+        buf.min_int = self.min_int
+        return buf
 
-f_person = open('input_file_of_person.txt')
-
-aa = person()
-aa.fill_person_from_file(f_person)
-aa.print_person_info()
