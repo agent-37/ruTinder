@@ -25,13 +25,15 @@ class Interface:
         self.upload_base_from_file()
         print('Привет, пользователь. Ты находишься на лучшем сайте  \'RuTinder\'.')
         self.user.fill_person_from_console(self.all_inter)
+        self.data_base.sift_and_print(self.user)
         while True:
-            self.data_base.sift_and_print(self.user)
-            console_input = input('1) Change user\n2)Show info\n3) Exit')
+
+            console_input = input('1) Change user\n2) Show info\n3) Exit')
             if is_int(console_input):
                 match int(console_input) :
                     case 1:
                         self.user.change_person_from_console(self.all_inter)
+                        self.data_base.sift_and_print(self.user)
                     case 2:
                         self.user.print_user_person_info()
                     case 3:
