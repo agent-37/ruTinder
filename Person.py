@@ -219,17 +219,18 @@ class person:
         self.list_of_interests = set(buf[8].split(','))
         return 1
 
-    def check_cool(self, new_person):
-        if not (
-                self.min_age <= new_person.age <= self.max_age) or self.acc_gender != new_person.gender or self.city != new_person.city:
-            return 0
+    def check_cool(self, new_person: 'person'):
+        cost = 0
+        if new_person.city != self.city:
+            cost += 10
+        if self.min_age > new_person.age or self.max_age < new_person.age:
+            cost += min(abs(new_person.age - self.min_age), abs(self.max_age - new_person.age))
         count = 0
         for i in self.list_of_interests:
             if i in new_person.list_of_interests:
                 count += 1
-        if count >= self.min_int:
-            return 1
-        return 0
+        cost += max(0, self.min_int - count) * 2
+        return cost
 
     def copy(self):
         buf = person()
@@ -243,4 +244,3 @@ class person:
         buf.acc_gender = self.acc_gender
         buf.min_int = self.min_int
         return buf
-

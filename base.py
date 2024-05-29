@@ -21,10 +21,13 @@ class base:
 
     def sift_and_print(self, new_person: person):
         buf_data_base = base()
+        buf_list = []
+        for i in range(len(self.data_base)):
 
-        for i in self.data_base:
-
-            if new_person.check_cool(i) and i.check_cool(new_person):
-                buf_data_base.data_base.append(i)
-
+            if new_person.acc_gender == self.data_base[i].gender and self.data_base[i].acc_gender == new_person.gender:
+                buf_list.append(
+                    [new_person.check_cool(self.data_base[i]) + self.data_base[i].check_cool(new_person), i])
+        for i in sorted(buf_list):
+            buf_data_base.data_base.append(self.data_base[i[1]])
+        # print(sorted(buf_list))
         buf_data_base.print()
