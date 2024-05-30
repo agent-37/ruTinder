@@ -54,10 +54,10 @@ class person:
         print('Gander:', self.gender)
         print('Age:', self.age)
         print('City:', self.city)
-        print('Min_age', self.min_age)
-        print('Max_age', self.max_age)
-        print('acc_gender', self.acc_gender)
-        print('min_int', self.min_int)
+        print('Min_age:', self.min_age)
+        print('Max_age:', self.max_age)
+        print('acc_gender:', self.acc_gender)
+        print('min_int:', self.min_int)
         if len(self.list_of_interests) != 0:
             print('Interests:')
             for i in self.list_of_interests:

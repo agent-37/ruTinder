@@ -7,3 +7,44 @@ Maria;    23;    F;         M;           Yaroslavl;   25;     30;        3;socce
 Igor;     29;    M;         F;           Yaroslavl;   21;     25;        1;soccer,kayaking,skiing,reading
 Oleg;     41;    M;         F;           Yaroslavl;   21;     40;        1;soccer,skiing,reading
 Andrew;   43;    M;         F;           Yaroslavl;   21;     35;        1;soccer,kayaking,paddle boarding,reading
+Jack;     33;    M;         F;           San Jose;    28;     33;        1;technology,hiking,camping
+Emma;     22;    F;         M;           Phoenix;     19;     30;        1;singing,dancing,camping,photography
+Charlie;  42;    M;         F;           Chicago;     35;     40;        1;traveling,photography,politics,history
+Katherin; 24;    F;         M;           Austin;      25;     30;        1;music,art,reading
+Peter;    35;    M;         F;           Phoenix;     30;     35;        1;sports,traveling,cooking
+Bob;      35;    M;         F;           Los Angeles; 40;     50;        2;cooking,gaming,singing
+Grace;    31;    F;         M;           San Antonio; 30;     38;        1;yoga,cooking,craft beer,coffee
+Alice;    25;    F;         M;           New York;    24;     27;        1;reading,hiking,photography
+David;    29;    M;         F;           Houston;     20;     30;        1;painting,swimming
+Isabella; 26;    F;         M;           Dallas;      26;     31;        2;dancing,fashion,traveling,photography
+Liam;     38;    M;         F;           Austin;      30;     40;        1;fishing,cooking,sports,volunteering
+Mia;      31;    F;         M;           Austin;      30;     40;        1;yoga,painting,volunteering
+Henry;    28;    M;         F;           Austin;      20;     27;        1;surfing,photography,music
+Frank;    28;    M;         F;           Phoenix;     20;     25;        1;reading,traveling,dancing
+Henry;    32;    M;         F;           Dallas;      20;     25;        1;surfing,photography,music,craft beer
+Noah;     37;    M;         F;           San Antonio; 30;     35;        1;gaming,music,reading,craft beer
+Olivia;   27;    F;         M;           Dallas;      27;     36;        1;dancing,fashion,photography,traveling
+Queen;    32;    F;         M;           San Jose;    32;     35;        1;knitting,gardening,reading,technology
+Robert;   21;    M;         F;           Phoenix;     19;     23;        2;hiking,camping,photography
+Sophia;   38;    F;         M;           Chicago;     40;     45;        2;politics,history,art
+Thomas;   26;    M;         F;           Austin;      23;     25;        1;history,museums,music
+Ursula;   30;    F;         M;           Phoenix;     32;     37;        1;volleyball,swimming,sports
+Vivian;   42;    F;         M;           Los Angeles; 33;     38;        1;music,cooking,singing
+William;  36;    M;         F;           San Antonio; 30;     32;        2;craft beer,hiking,coffee
+Xander;   23;    M;         F;           New York;    23;     26;        2;reading,hiking,photography
+Yasmin;   27;    F;         M;           Houston;     27;     30;        2;painting,swimming
+Zachary;  30;    M;         F;           Dallas;      25;     28;        2;sports,fishing,camping,traveling
+Alex;     22;    M;         F;           Los Angeles; 19;     22;        1;astronomy,hiking,camping
+Beatrice; 37;    F;         M;           Los Angeles; 40;     45;        1;theatre,art
+Camila;   29;    F;         M;           Los Angeles; 29;     34;        1;technology,photography,traveling
+Daniel    41;    M;         F;           Los Angeles; 30;     38;        1;hiking,yoga,paddleboarding
+Erika     25;    F;         M;           Los Angeles; 25;     29;        1;volleyball,hiking,camping
+Felipe    29;    M;         F;           Los Angeles; 25;     29;        1;photography,hiking,art
+Hunter;   39;    M;         F;           New York;    32;     38;        1;skiing,snowboarding,hiking
+Isabella; 24;    F;         M;           New York;    25;     30;        1;acting,singing,dancing
+Jackson;  33;    M;         F;           New York;    28;     32;        1;music,technology,food
+Kimberly; 26;    F;         M;           New York;    32;     39;        1;hiking,running,yoga
+Lucas;    34;    M;         F;           New York;    25;     30;        1;sports,history,reading
+Madison;  29;    F;         M;           New York;    32;     38;        1;fashion,shopping,traveling
+Mateo;    42;    M;         F;           New York;    32;     38;        1;music,food,photography
+Natalie;  27;    F;         M;           Austin;      27;     28         1;surfing,paddleboarding,yoga

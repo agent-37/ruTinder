@@ -28,7 +28,7 @@ class Interface:
         self.data_base.sift_and_print(self.user)
         while True:
 
-            console_input = input('1) Change user\n2) Show info\n3) Exit')
+            console_input = input('1) Change user\n2) Show info\n3) Exit\n')
             if is_int(console_input):
                 match int(console_input) :
                     case 1:
